@@ -8,7 +8,7 @@ const schedules = [
   { id: "111", date: "2025-02-15T03:00:00.000Z", status: "paused" },
 ];
 
-const adScheduling = cron.schedule("5 * * * * *", () => {
+const adScheduling = cron.schedule("0 */12 * * *", () => {
   const now = new Date();
   const pastItems = schedules.filter((item) => new Date(item.date) < now);
 
