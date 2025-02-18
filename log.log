@@ -1,0 +1,59 @@
+
+> adzen-be@1.0.0 dev
+> nodemon src/server.ts
+
+[33m[nodemon] 3.1.9[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): src/**/*[39m
+[33m[nodemon] watching extensions: ts[39m
+[32m[nodemon] starting `concurrently 'npx tsc --watch'  'ts-node src/index.ts' src/server.ts`[39m
+[2] /bin/sh: src/server.ts: Permission denied
+[2] src/server.ts exited with code 126
+[1] node:internal/modules/cjs/loader:1247
+[1]   throw err;
+[1]   ^
+[1] 
+[1] Error: Cannot find module './index.ts'
+[1] Require stack:
+[1] - /Users/cefas/Documents/projects/adzen/adzen-be/src/imaginaryUncacheableRequireResolveScript
+[1]     at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+[1]     at Function.resolve (node:internal/modules/helpers:146:19)
+[1]     at requireResolveNonCached (/Users/cefas/Documents/projects/adzen/adzen-be/node_modules/ts-node/dist/bin.js:549:16)
+[1]     at getProjectSearchDir (/Users/cefas/Documents/projects/adzen/adzen-be/node_modules/ts-node/dist/bin.js:519:40)
+[1]     at phase3 (/Users/cefas/Documents/projects/adzen/adzen-be/node_modules/ts-node/dist/bin.js:267:27)
+[1]     at bootstrap (/Users/cefas/Documents/projects/adzen/adzen-be/node_modules/ts-node/dist/bin.js:47:30)
+[1]     at main (/Users/cefas/Documents/projects/adzen/adzen-be/node_modules/ts-node/dist/bin.js:33:12)
+[1]     at Object.<anonymous> (/Users/cefas/Documents/projects/adzen/adzen-be/node_modules/ts-node/dist/bin.js:579:5)
+[1]     at Module._compile (node:internal/modules/cjs/loader:1562:14)
+[1]     at Object..js (node:internal/modules/cjs/loader:1699:10) {
+[1]   code: 'MODULE_NOT_FOUND',
+[1]   requireStack: [
+[1]     '/Users/cefas/Documents/projects/adzen/adzen-be/src/imaginaryUncacheableRequireResolveScript'
+[1]   ]
+[1] }
+[1] 
+[1] Node.js v22.13.1
+[1] ts-node src/index.ts exited with code 1
+[0] [2J[3J[H10:52:17 PM - Starting compilation in watch mode...
+[0] 
+[0] 
+[0] 10:52:18 PM - Found 0 errors. Watching for file changes.
+[0] npx tsc --watch exited with code SIGINT
+
+> adzen-be@1.0.0 dev
+> nodemon src/server.ts
+
+[33m[nodemon] 3.1.9[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): src/**/*[39m
+[33m[nodemon] watching extensions: ts[39m
+[32m[nodemon] starting `concurrently 'npx tsc --watch'  'ts-node src/server.ts' src/server.ts`[39m
+[2] /bin/sh: src/server.ts: Permission denied
+[2] src/server.ts exited with code 126
+[0] [2J[3J[H10:52:36 PM - Starting compilation in watch mode...
+[0] 
+[1] [server]: Server is running at http://localhost:3000
+[0] 
+[0] 10:52:37 PM - Found 0 errors. Watching for file changes.
+[1] ts-node src/server.ts exited with code SIGINT
+[0] npx tsc --watch exited with code SIGINT
